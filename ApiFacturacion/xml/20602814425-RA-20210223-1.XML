@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VoidedDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:VoidedDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <ext:UBLExtensions>
+              <ext:UBLExtension>
+                  <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>XDXBCo7n5H1SzT8WPfNCRhyrvDo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ZpGkQ9iEdWI1WUGj/SwytKmp3PxvBuNkbU2I7l7gM+LJl/ZN7nh9eUS0xIil1CDovAHL5SAD4zBePYDJ24+GDg2ZHM8NCgQ/cNimpJ3SiMt8ynG7SLOf7wktJ+LaCoQnI0x5MiD7pQPtzejPETvRf3GOw+SZrw5m3s7Yt3XTyfF9FSG5IweQ/wu3sS8XzT4ga//d4Dx5VshAoZwkZ9ja4o/hl3ewlBkfmjcvYBjHmzxWGYQC/ePZNpn6w7u2QIVmFmvK3xmuaUp/q4Ia3GJHARWTVL/0CsCwzd3ahxPtWmhFe1VH8OHwnsYUsVmvcLeSuaFnsO47Ihon+g/FuCseEA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+DCCA+CgAwIBAgIJANmJEZyxshk1MA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMTA0MzUzNTAzNzggLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTIxMDIwNTA0NTIzNloXDTIzMDIwNTA0NTIzNlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAxMDQzNTM1MDM3OCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJLu3vylHN1MtDLucLcailS+KRQU8qd0A6lkTYTaoX4J2Mp0bNp0VFGkFsyck2Ggs6EtHzUhft5u9COLE4i0sc/Hctnld7YFM9ouwGfQyjkn2d8WI2Q7xaNIIwoODU7GfShyyveRoYp7J4pJAabdJoYJt/lVcYAxrOwvZDrdLV+uoskmu1q9tZqzcqu+ynB9d7j/nUj4tXE53+EJ6hyTalIjwzEtBfS4m9SXw/OqFzwkJ5gyLh5DIcqDaotrWVQQ5I+BrT3Mluj7YJhn0L01MhsF6q+avpsEeEIdmP3afsEuDakY2BtfK1Nhx75jEfO9rR62tFHCUxHJCY1GwYXSV7AgMBAAGjVzBVMB0GA1UdDgQWBBRAFDSzAJbZ85dlA1q6TocCVchnOjAfBgNVHSMEGDAWgBRAFDSzAJbZ85dlA1q6TocCVchnOjATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAFUC7Ci+Ic58M1z7ox0saxutFmKHayTGlahwsgt5U0Nfuz7Mon3heGZJoPX+2lztgdnNgAsK9BF+XS+8bIGVTMLoJfUegwaj+xo8uK1YhbvcbFTtYHFE5xQMNilbyCeZUlx3ARxwju5HMJuX2rOtnNuQtoa+iKY962PgWaJtJp/HVwRrCx72jOnP/GbOx1dktiUDMOJ8/s1oxUgXtIstEEs5tfDvQC8A07wUqKZhavVImSQcTnhAGTlmFiuJdko6Z6FcAkYKVgjtUFgxpml1wuQYTozw6uTdm722dU5V00DpWerkgYA/PzltfdARFsRLupX2aCoaof4iA9X3KrVEDtg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+              </ext:UBLExtension>
+          </ext:UBLExtensions>
+          <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+          <cbc:CustomizationID>1.0</cbc:CustomizationID>
+          <cbc:ID>RA-20210223-1</cbc:ID>
+          <cbc:ReferenceDate>2021-02-23</cbc:ReferenceDate>
+          <cbc:IssueDate>2021-02-23</cbc:IssueDate>
+          <cac:Signature>
+              <cbc:ID>RA-20210223-1</cbc:ID>
+              <cac:SignatoryParty>
+                  <cac:PartyIdentification>
+                      <cbc:ID>20602814425</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:PartyName>
+                      <cbc:Name><![CDATA[TAQINI TECHNOLOGY SAC]]></cbc:Name>
+                  </cac:PartyName>
+              </cac:SignatoryParty>
+              <cac:DigitalSignatureAttachment>
+                  <cac:ExternalReference>
+                      <cbc:URI>RA-20210223-1</cbc:URI>
+                  </cac:ExternalReference>
+              </cac:DigitalSignatureAttachment>
+          </cac:Signature>
+          <cac:AccountingSupplierParty>
+              <cbc:CustomerAssignedAccountID>20602814425</cbc:CustomerAssignedAccountID>
+              <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+              <cac:Party>
+                  <cac:PartyLegalEntity>
+                      <cbc:RegistrationName><![CDATA[TAQINI TECHNOLOGY SAC]]></cbc:RegistrationName>
+                  </cac:PartyLegalEntity>
+              </cac:Party>
+          </cac:AccountingSupplierParty><sac:VoidedDocumentsLine>
+                 <cbc:LineID>1</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>32367</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>2</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>21165</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>3</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>43358</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>4</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>14458</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>5</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>1681</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>6</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>13933</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>7</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>13118</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>8</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>11637</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>9</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>44888</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>10</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>23304</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>11</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>10260</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>12</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>27756</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>13</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>37721</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>14</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>16224</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>15</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>39758</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>16</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>15406</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>17</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>35806</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>18</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>3813</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>19</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>42172</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>20</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>33837</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>21</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>160</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>22</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>40767</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>23</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>15463</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>24</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>30820</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>25</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>47958</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>26</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>27393</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>27</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>41737</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>28</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>266</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>29</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>38111</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>30</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>1545</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>31</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>33758</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>32</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>42748</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>33</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>28035</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>34</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>39252</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>35</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>32406</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>36</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>19422</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>37</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>20578</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>38</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>12378</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>39</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>41587</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>40</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>1593</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>41</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>45391</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>42</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>46784</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>43</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>3630</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>44</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>6725</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>45</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>10820</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>46</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>31438</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>47</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>41064</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>48</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>3914</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>49</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>36043</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>50</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>41357</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>51</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>25333</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>52</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>6284</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>53</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>48082</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>54</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>36147</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>55</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>27578</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>56</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>49589</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>57</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>22370</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>58</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>35455</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>59</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>11701</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>60</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>16203</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>61</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>8782</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>62</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>4775</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>63</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>7856</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>64</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>41837</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>65</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>22819</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>66</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>7448</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>67</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F004</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>30611</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>68</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>38208</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>69</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>998</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>70</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>35252</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>71</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>8882</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>72</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>3291</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>73</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F004</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>11262</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>74</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>34779</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>75</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>16057</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>76</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>44987</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>77</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>40529</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>78</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>46837</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>79</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>47249</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>80</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>124</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>81</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>20596</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>82</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>14681</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>83</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>573</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>84</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F002</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>18332</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>85</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>24266</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>86</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>49812</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>87</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>6443</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>88</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>13025</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>89</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>19022</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>90</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F009</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>5008</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>91</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>17962</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>92</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>35178</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>93</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>37349</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>94</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F001</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>44428</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>95</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>27491</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>96</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F008</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>49660</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>97</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F007</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>31594</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>98</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F006</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>31381</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>99</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F003</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>17817</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine><sac:VoidedDocumentsLine>
+                 <cbc:LineID>100</cbc:LineID>
+                 <cbc:DocumentTypeCode>01</cbc:DocumentTypeCode>
+                 <sac:DocumentSerialID>F005</sac:DocumentSerialID>
+                 <sac:DocumentNumberID>26630</sac:DocumentNumberID>
+                 <sac:VoidReasonDescription><![CDATA[ERROR EN DOCUMENTO]]></sac:VoidReasonDescription>
+             </sac:VoidedDocumentsLine></VoidedDocuments>

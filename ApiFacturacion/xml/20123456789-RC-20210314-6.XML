@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+          <ext:UBLExtensions>
+              <ext:UBLExtension>
+                  <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>CTCrf9TdsP+XbR2aaXvq5AJXHLY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>rLylXuHC5b03h1atL99CjSN77CDFu7squUiBvgsHlZehHMYmARrbeMidQzvhl6daLY2Fkk2CmZ/8lj0dGcC9DMu0ErWTuTO7Zs6+8+gJviF8bxoE181cg2g2vVh4XkQ8huFe1kRFmDTvHJ1Y+q55ptAQFNRjTr3L9EJc/malCYNzeh6240+qLVR28mXDVJBFjzR8irsikQpuKVKv2CyXwoJgJiqph4AVjSWqgGe3yvVad6gQaEpDIRCXliafUQbPZYlPSsvEBwHOQAd5fbFPdn+YB4JBFfAcbxRFOfZEXsE8PZommWRSpfHOt/F52F5tomIHLswb6MSO+SFbtSpEOw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+DCCA+CgAwIBAgIJANmJEZyxshk1MA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMTA0MzUzNTAzNzggLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTIxMDIwNTA0NTIzNloXDTIzMDIwNTA0NTIzNlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAxMDQzNTM1MDM3OCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJLu3vylHN1MtDLucLcailS+KRQU8qd0A6lkTYTaoX4J2Mp0bNp0VFGkFsyck2Ggs6EtHzUhft5u9COLE4i0sc/Hctnld7YFM9ouwGfQyjkn2d8WI2Q7xaNIIwoODU7GfShyyveRoYp7J4pJAabdJoYJt/lVcYAxrOwvZDrdLV+uoskmu1q9tZqzcqu+ynB9d7j/nUj4tXE53+EJ6hyTalIjwzEtBfS4m9SXw/OqFzwkJ5gyLh5DIcqDaotrWVQQ5I+BrT3Mluj7YJhn0L01MhsF6q+avpsEeEIdmP3afsEuDakY2BtfK1Nhx75jEfO9rR62tFHCUxHJCY1GwYXSV7AgMBAAGjVzBVMB0GA1UdDgQWBBRAFDSzAJbZ85dlA1q6TocCVchnOjAfBgNVHSMEGDAWgBRAFDSzAJbZ85dlA1q6TocCVchnOjATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAFUC7Ci+Ic58M1z7ox0saxutFmKHayTGlahwsgt5U0Nfuz7Mon3heGZJoPX+2lztgdnNgAsK9BF+XS+8bIGVTMLoJfUegwaj+xo8uK1YhbvcbFTtYHFE5xQMNilbyCeZUlx3ARxwju5HMJuX2rOtnNuQtoa+iKY962PgWaJtJp/HVwRrCx72jOnP/GbOx1dktiUDMOJ8/s1oxUgXtIstEEs5tfDvQC8A07wUqKZhavVImSQcTnhAGTlmFiuJdko6Z6FcAkYKVgjtUFgxpml1wuQYTozw6uTdm722dU5V00DpWerkgYA/PzltfdARFsRLupX2aCoaof4iA9X3KrVEDtg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+              </ext:UBLExtension>
+          </ext:UBLExtensions>
+          <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+          <cbc:CustomizationID>1.1</cbc:CustomizationID>
+          <cbc:ID>RC-20210314-6</cbc:ID>
+          <cbc:ReferenceDate>2021-03-14</cbc:ReferenceDate>
+          <cbc:IssueDate>2021-03-14</cbc:IssueDate>
+          <cac:Signature>
+              <cbc:ID>RC-20210314-6</cbc:ID>
+              <cac:SignatoryParty>
+                  <cac:PartyIdentification>
+                      <cbc:ID>20123456789</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:PartyName>
+                      <cbc:Name><![CDATA[EMPRESA EMISORA]]></cbc:Name>
+                  </cac:PartyName>
+              </cac:SignatoryParty>
+              <cac:DigitalSignatureAttachment>
+                  <cac:ExternalReference>
+                      <cbc:URI>RC-20210314-6</cbc:URI>
+                  </cac:ExternalReference>
+              </cac:DigitalSignatureAttachment>
+          </cac:Signature>
+          <cac:AccountingSupplierParty>
+              <cbc:CustomerAssignedAccountID>20123456789</cbc:CustomerAssignedAccountID>
+              <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+              <cac:Party>
+                  <cac:PartyLegalEntity>
+                      <cbc:RegistrationName><![CDATA[EMPRESA EMISORA]]></cbc:RegistrationName>
+                  </cac:PartyLegalEntity>
+              </cac:Party>
+          </cac:AccountingSupplierParty><sac:SummaryDocumentsLine>
+                 <cbc:LineID>1</cbc:LineID>
+                 <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+                 <cbc:ID>B001-4585</cbc:ID>
+                 <cac:Status>
+                    <cbc:ConditionCode>1</cbc:ConditionCode>
+                 </cac:Status>                
+                 <sac:TotalAmount currencyID="PEN">15.34</sac:TotalAmount><sac:BillingPayment>
+                           <cbc:PaidAmount currencyID="PEN">13.00</cbc:PaidAmount>
+                           <cbc:InstructionID>01</cbc:InstructionID>
+                       </sac:BillingPayment><cac:TaxTotal>
+                     <cbc:TaxAmount currencyID="PEN">2.34</cbc:TaxAmount><cac:TaxSubtotal>
+                         <cbc:TaxAmount currencyID="PEN">2.34</cbc:TaxAmount>
+                         <cac:TaxCategory>
+                             <cac:TaxScheme>
+                                 <cbc:ID>1000</cbc:ID>
+                                 <cbc:Name>IGV</cbc:Name>
+                                 <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                             </cac:TaxScheme>
+                         </cac:TaxCategory>
+                     </cac:TaxSubtotal></cac:TaxTotal>
+             </sac:SummaryDocumentsLine></SummaryDocuments>
